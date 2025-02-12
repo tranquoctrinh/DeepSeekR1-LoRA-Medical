@@ -1,0 +1,50 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+*.out
+
+# Ignore data files
+*.csv
+*.tsv
+*.json
+
+# Ignore model files
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# Ignore configuration files
+*.yaml
+*.yml
+*.ini
+
+# Ignore other files
+*.bak
+*.old
+
+# Ignore virtual environment configuration
+*.env
+
+# Ignore directories
+wandb/
+outputs/
